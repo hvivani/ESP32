@@ -1,0 +1,7 @@
+https://espressif.github.io/esptool-js/
+1. connect to the board.
+2. press "Erase Flash" and press and hold boot button (right button). 
+3. Set flash address to 0x0000 and choose file factory_WROMM-32.bin.
+binaries available here: https://docs.espressif.com/projects/esp-at/en/latest/esp32/AT_Binary_Lists/ESP32_AT_binaries.html
+4. Press Program and wait to the final of flash process (Hash of data verified. Leaving...)
+5. Unplug, plug and test
